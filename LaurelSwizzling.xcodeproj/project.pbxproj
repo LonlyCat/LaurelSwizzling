@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6CB44F12A5BEC1A00C9053D /* LaurelSwizzling.docc in Sources */ = {isa = PBXBuildFile; fileRef = A6CB44F02A5BEC1A00C9053D /* LaurelSwizzling.docc */; };
+		A6CB44F72A5BEC1A00C9053D /* LaurelSwizzling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CB44EC2A5BEC1A00C9053D /* LaurelSwizzling.framework */; };
+		A6CB44FC2A5BEC1A00C9053D /* LaurelSwizzlingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CB44FB2A5BEC1A00C9053D /* LaurelSwizzlingTests.swift */; };
+		A6CB44FD2A5BEC1A00C9053D /* LaurelSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = A6CB44EF2A5BEC1A00C9053D /* LaurelSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6CB450B2A5BF03D00C9053D /* LaurelRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = A6CB45092A5BF03D00C9053D /* LaurelRuntime.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6CB450C2A5BF03D00C9053D /* LaurelRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CB450A2A5BF03D00C9053D /* LaurelRuntime.m */; };
+		A6CB45142A5CF59500C9053D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CB45132A5CF59500C9053D /* main.m */; };
+		A6CB451B2A5CF5CF00C9053D /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CB451A2A5CF5CF00C9053D /* Student.m */; };
+		A6CB451D2A5CF75C00C9053D /* LaurelSwizzling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CB44EC2A5BEC1A00C9053D /* LaurelSwizzling.framework */; };
+		A6CB452A2A5D086C00C9053D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6CB45292A5D086C00C9053D /* main.swift */; };
+		A6CB452F2A5D08CA00C9053D /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = A6CB451A2A5CF5CF00C9053D /* Student.m */; };
+		A6CB45312A5D09CA00C9053D /* LaurelSwizzling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CB44EC2A5BEC1A00C9053D /* LaurelSwizzling.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6CB44F82A5BEC1A00C9053D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6CB44E32A5BEC1A00C9053D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6CB44EB2A5BEC1A00C9053D;
+			remoteInfo = LaurelSwizzling;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A6CB450F2A5CF59500C9053D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		A6CB45252A5D086C00C9053D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A6CB44EC2A5BEC1A00C9053D /* LaurelSwizzling.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LaurelSwizzling.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6CB44EF2A5BEC1A00C9053D /* LaurelSwizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaurelSwizzling.h; sourceTree = "<group>"; };
+		A6CB44F02A5BEC1A00C9053D /* LaurelSwizzling.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = LaurelSwizzling.docc; sourceTree = "<group>"; };
+		A6CB44F62A5BEC1A00C9053D /* LaurelSwizzlingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaurelSwizzlingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6CB44FB2A5BEC1A00C9053D /* LaurelSwizzlingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaurelSwizzlingTests.swift; sourceTree = "<group>"; };
+		A6CB45092A5BF03D00C9053D /* LaurelRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaurelRuntime.h; sourceTree = "<group>"; };
+		A6CB450A2A5BF03D00C9053D /* LaurelRuntime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaurelRuntime.m; sourceTree = "<group>"; };
+		A6CB45112A5CF59500C9053D /* LaurelSwizzlingExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LaurelSwizzlingExample; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6CB45132A5CF59500C9053D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6CB45192A5CF5CF00C9053D /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		A6CB451A2A5CF5CF00C9053D /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		A6CB45272A5D086C00C9053D /* LaurelSwizzlingExample-Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LaurelSwizzlingExample-Swift"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6CB45292A5D086C00C9053D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A6CB45302A5D08FC00C9053D /* LaurelSwizzlingExample-Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LaurelSwizzlingExample-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6CB44E92A5BEC1A00C9053D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CB44F32A5BEC1A00C9053D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CB44F72A5BEC1A00C9053D /* LaurelSwizzling.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CB450E2A5CF59500C9053D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CB451D2A5CF75C00C9053D /* LaurelSwizzling.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CB45242A5D086C00C9053D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CB45312A5D09CA00C9053D /* LaurelSwizzling.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6CB44E22A5BEC1A00C9053D = {
+			isa = PBXGroup;
+			children = (
+				A6CB452E2A5D08BA00C9053D /* Shared */,
+				A6CB44EE2A5BEC1A00C9053D /* LaurelSwizzling */,
+				A6CB44FA2A5BEC1A00C9053D /* LaurelSwizzlingTests */,
+				A6CB45122A5CF59500C9053D /* LaurelSwizzlingExample */,
+				A6CB45282A5D086C00C9053D /* LaurelSwizzlingExample-Swift */,
+				A6CB44ED2A5BEC1A00C9053D /* Products */,
+				A6CB451C2A5CF75C00C9053D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6CB44ED2A5BEC1A00C9053D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6CB44EC2A5BEC1A00C9053D /* LaurelSwizzling.framework */,
+				A6CB44F62A5BEC1A00C9053D /* LaurelSwizzlingTests.xctest */,
+				A6CB45112A5CF59500C9053D /* LaurelSwizzlingExample */,
+				A6CB45272A5D086C00C9053D /* LaurelSwizzlingExample-Swift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6CB44EE2A5BEC1A00C9053D /* LaurelSwizzling */ = {
+			isa = PBXGroup;
+			children = (
+				A6CB45062A5BECC800C9053D /* Core */,
+				A6CB44EF2A5BEC1A00C9053D /* LaurelSwizzling.h */,
+				A6CB44F02A5BEC1A00C9053D /* LaurelSwizzling.docc */,
+			);
+			path = LaurelSwizzling;
+			sourceTree = "<group>";
+		};
+		A6CB44FA2A5BEC1A00C9053D /* LaurelSwizzlingTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6CB44FB2A5BEC1A00C9053D /* LaurelSwizzlingTests.swift */,
+			);
+			path = LaurelSwizzlingTests;
+			sourceTree = "<group>";
+		};
+		A6CB45062A5BECC800C9053D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A6CB45092A5BF03D00C9053D /* LaurelRuntime.h */,
+				A6CB450A2A5BF03D00C9053D /* LaurelRuntime.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A6CB45122A5CF59500C9053D /* LaurelSwizzlingExample */ = {
+			isa = PBXGroup;
+			children = (
+				A6CB45132A5CF59500C9053D /* main.m */,
+			);
+			path = LaurelSwizzlingExample;
+			sourceTree = "<group>";
+		};
+		A6CB45182A5CF5BE00C9053D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A6CB45192A5CF5CF00C9053D /* Student.h */,
+				A6CB451A2A5CF5CF00C9053D /* Student.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A6CB451C2A5CF75C00C9053D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6CB45282A5D086C00C9053D /* LaurelSwizzlingExample-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				A6CB45292A5D086C00C9053D /* main.swift */,
+				A6CB45302A5D08FC00C9053D /* LaurelSwizzlingExample-Swift-Bridging-Header.h */,
+			);
+			path = "LaurelSwizzlingExample-Swift";
+			sourceTree = "<group>";
+		};
+		A6CB452E2A5D08BA00C9053D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A6CB45182A5CF5BE00C9053D /* Models */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A6CB44E72A5BEC1A00C9053D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CB450B2A5BF03D00C9053D /* LaurelRuntime.h in Headers */,
+				A6CB44FD2A5BEC1A00C9053D /* LaurelSwizzling.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A6CB44EB2A5BEC1A00C9053D /* LaurelSwizzling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6CB45002A5BEC1A00C9053D /* Build configuration list for PBXNativeTarget "LaurelSwizzling" */;
+			buildPhases = (
+				A6CB44E72A5BEC1A00C9053D /* Headers */,
+				A6CB44E82A5BEC1A00C9053D /* Sources */,
+				A6CB44E92A5BEC1A00C9053D /* Frameworks */,
+				A6CB44EA2A5BEC1A00C9053D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaurelSwizzling;
+			productName = LaurelSwizzling;
+			productReference = A6CB44EC2A5BEC1A00C9053D /* LaurelSwizzling.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A6CB44F52A5BEC1A00C9053D /* LaurelSwizzlingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6CB45032A5BEC1A00C9053D /* Build configuration list for PBXNativeTarget "LaurelSwizzlingTests" */;
+			buildPhases = (
+				A6CB44F22A5BEC1A00C9053D /* Sources */,
+				A6CB44F32A5BEC1A00C9053D /* Frameworks */,
+				A6CB44F42A5BEC1A00C9053D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6CB44F92A5BEC1A00C9053D /* PBXTargetDependency */,
+			);
+			name = LaurelSwizzlingTests;
+			productName = LaurelSwizzlingTests;
+			productReference = A6CB44F62A5BEC1A00C9053D /* LaurelSwizzlingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6CB45102A5CF59500C9053D /* LaurelSwizzlingExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6CB45152A5CF59500C9053D /* Build configuration list for PBXNativeTarget "LaurelSwizzlingExample" */;
+			buildPhases = (
+				A6CB450D2A5CF59500C9053D /* Sources */,
+				A6CB450E2A5CF59500C9053D /* Frameworks */,
+				A6CB450F2A5CF59500C9053D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaurelSwizzlingExample;
+			productName = LaurelSwizzlingExample;
+			productReference = A6CB45112A5CF59500C9053D /* LaurelSwizzlingExample */;
+			productType = "com.apple.product-type.tool";
+		};
+		A6CB45262A5D086C00C9053D /* LaurelSwizzlingExample-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6CB452B2A5D086C00C9053D /* Build configuration list for PBXNativeTarget "LaurelSwizzlingExample-Swift" */;
+			buildPhases = (
+				A6CB45232A5D086C00C9053D /* Sources */,
+				A6CB45242A5D086C00C9053D /* Frameworks */,
+				A6CB45252A5D086C00C9053D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LaurelSwizzlingExample-Swift";
+			productName = "LaurelSwizzlingExample-Swift";
+			productReference = A6CB45272A5D086C00C9053D /* LaurelSwizzlingExample-Swift */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6CB44E32A5BEC1A00C9053D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A6CB44EB2A5BEC1A00C9053D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A6CB44F52A5BEC1A00C9053D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A6CB45102A5CF59500C9053D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A6CB45262A5D086C00C9053D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = A6CB44E62A5BEC1A00C9053D /* Build configuration list for PBXProject "LaurelSwizzling" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6CB44E22A5BEC1A00C9053D;
+			productRefGroup = A6CB44ED2A5BEC1A00C9053D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6CB44EB2A5BEC1A00C9053D /* LaurelSwizzling */,
+				A6CB44F52A5BEC1A00C9053D /* LaurelSwizzlingTests */,
+				A6CB45102A5CF59500C9053D /* LaurelSwizzlingExample */,
+				A6CB45262A5D086C00C9053D /* LaurelSwizzlingExample-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6CB44EA2A5BEC1A00C9053D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CB44F42A5BEC1A00C9053D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6CB44E82A5BEC1A00C9053D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CB44F12A5BEC1A00C9053D /* LaurelSwizzling.docc in Sources */,
+				A6CB450C2A5BF03D00C9053D /* LaurelRuntime.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CB44F22A5BEC1A00C9053D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CB44FC2A5BEC1A00C9053D /* LaurelSwizzlingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CB450D2A5CF59500C9053D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CB45142A5CF59500C9053D /* main.m in Sources */,
+				A6CB451B2A5CF5CF00C9053D /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6CB45232A5D086C00C9053D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CB452A2A5D086C00C9053D /* main.swift in Sources */,
+				A6CB452F2A5D08CA00C9053D /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6CB44F92A5BEC1A00C9053D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6CB44EB2A5BEC1A00C9053D /* LaurelSwizzling */;
+			targetProxy = A6CB44F82A5BEC1A00C9053D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A6CB44FE2A5BEC1A00C9053D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6CB44FF2A5BEC1A00C9053D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A6CB45012A5BEC1A00C9053D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = F7Q8CT99FG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yimusen.LaurelSwizzling;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6CB45022A5BEC1A00C9053D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = F7Q8CT99FG;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = (
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yimusen.LaurelSwizzling;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = auto;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6CB45042A5BEC1A00C9053D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7Q8CT99FG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yimusen.LaurelSwizzlingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6CB45052A5BEC1A00C9053D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F7Q8CT99FG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Yimusen.LaurelSwizzlingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6CB45162A5CF59500C9053D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7Q8CT99FG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A6CB45172A5CF59500C9053D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7Q8CT99FG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A6CB452C2A5D086C00C9053D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7Q8CT99FG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "LaurelSwizzlingExample-Swift/LaurelSwizzlingExample-Swift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A6CB452D2A5D086C00C9053D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F7Q8CT99FG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "LaurelSwizzlingExample-Swift/LaurelSwizzlingExample-Swift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6CB44E62A5BEC1A00C9053D /* Build configuration list for PBXProject "LaurelSwizzling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6CB44FE2A5BEC1A00C9053D /* Debug */,
+				A6CB44FF2A5BEC1A00C9053D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6CB45002A5BEC1A00C9053D /* Build configuration list for PBXNativeTarget "LaurelSwizzling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6CB45012A5BEC1A00C9053D /* Debug */,
+				A6CB45022A5BEC1A00C9053D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6CB45032A5BEC1A00C9053D /* Build configuration list for PBXNativeTarget "LaurelSwizzlingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6CB45042A5BEC1A00C9053D /* Debug */,
+				A6CB45052A5BEC1A00C9053D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6CB45152A5CF59500C9053D /* Build configuration list for PBXNativeTarget "LaurelSwizzlingExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6CB45162A5CF59500C9053D /* Debug */,
+				A6CB45172A5CF59500C9053D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6CB452B2A5D086C00C9053D /* Build configuration list for PBXNativeTarget "LaurelSwizzlingExample-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6CB452C2A5D086C00C9053D /* Debug */,
+				A6CB452D2A5D086C00C9053D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6CB44E32A5BEC1A00C9053D /* Project object */;
+}

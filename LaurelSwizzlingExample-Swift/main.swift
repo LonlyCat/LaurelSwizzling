@@ -11,7 +11,7 @@ import LaurelSwizzling
 let student = Student()
 print("\(student.study())")
 
-Swizzling.overrider.overrideImplementation(impBlock: { oriClass, oriCMD, impProvider in
+Swizzling.overrideImplementation(impBlock: { oriClass, oriCMD, impProvider in
     typealias ClosureType = @convention(block) (AnyObject) -> NSString
     let closure: ClosureType = { student in
         return "Student end study"
